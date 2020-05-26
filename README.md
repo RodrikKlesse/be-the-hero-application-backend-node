@@ -5,13 +5,12 @@ O projeto consiste em ajudar ONGs, permitindo o cadastro de cada uma delas levan
 
 
 # Para configurar a parte do banco
-1 - Primeiramente execute npm install knex
-2 - npm install sqlite3
-3 - npx knex init
+1 - Primeiramente execute npm install knex;
+2 - npm install sqlite3;
+3 - npx knex init;
 
 # Em seguida para criar as migrations, siga os passos
-
-# Nesse caso estamos criando o schema da tabela
+Nesse caso estamos criando o schema da tabela
 1 - npx knex migrate:make create_'nome da sua tabela'
 
 Em seguida um arquivo será criado na sua estrutura do codigo onde você poderá definir as colunas da sua tabela;
